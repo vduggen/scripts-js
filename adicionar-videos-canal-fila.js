@@ -1,3 +1,17 @@
+/**
+ * O que faz?
+ * Esse script pega todos os videos de um canal e adiciona na fila para ouvir.
+ * 
+ * Motivação:
+ * Queria ouvir todas as músicas de um canal e o canal tinha muitos vídeos.
+ * 
+ * Data criação: 21/07/2023
+ * 
+ * TODO:
+ * - Melhorar código
+ * - Documentar como utilizar
+ */
+
 var oldNumberVideos = document.querySelectorAll('ytd-rich-item-renderer').length;
 
 async function criarPromise() {
